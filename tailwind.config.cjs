@@ -5,19 +5,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        palette: {
-          '100': '#f5f5f5',
-          '200': '#e9f2ef',
-          '300': '#c4c4c4',
-          '500': '#d2f34c',
-          '700': '#31795a',
-          '800': '#254135',
-          '900': '#0f1620',
+        primary: {
+          '1': '#244034',
+          '2': '#D2F34C',
+          '3': '#00BF58',
+        },
+        secondary: {
+          '1': '#EFF6F3',
+          '2': '#F8FDE4',
+          '3': '#755146',
+          '4': '#EFF6F3',
+          '5': '#000000',
+          '6': '#31795A',
         },
       },
       fontFamily: {
         'eb-garamond': ['EB Garamond', 'serif'],
         gordita: ['Gordita', 'sans-serif'],
+      },
+      content: {
+        'category-icon': 'url("./assets/category-icon.svg")',
+        'jobi-icon': 'url("./assets/jobi-icon.svg")',
       },
     },
   },
