@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+@font-face {
+  font-family: 'Gordita';
+  font-weight: 400;
+  src: url('./fonts/gordita_regular-webfont.woff2') format('woff2'),
+       url('./fonts/gordita_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita';
+  font-weight: 500;
+  src: url('./fonts/gordita_medium-webfont.woff2') format('woff2'),
+       url('./fonts/gordita_medium-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita';
+  font-weight: 700;
+  src: url('./fonts/gordita_bold-webfont.woff2') format('woff2'),
+       url('./fonts/gordita_bold-webfont.woff') format('woff');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
