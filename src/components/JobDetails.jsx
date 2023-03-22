@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { getDatabase, ref, get } from "firebase/database";
 import JobDetailsBanner from "./JobDetailsBanner"
 import JobDetailsJob from "./JobDetailsJob"
@@ -9,8 +9,7 @@ import firebase from "../database/firebase";
 const JobDetails = () => {
   const [job, setJob] = useState({})
   const { jobId } = useParams();
-  console.log(jobId)
-
+  const navigate = useNavigate();
   useEffect(() => {
     const database = getDatabase(firebase);
     const dbRef = ref(database, `${jobId}`);
@@ -19,18 +18,19 @@ const JobDetails = () => {
         console.log(snapshot.val());
         setJob(snapshot.val());
       } else {
-        console.log("No data available");
+        navigate('*')
       }
     }).catch((error) => {
       console.log(error)
+      navigate('*')
     })
   }, [])
 
   return (
-    <section>
+    <>
       <JobDetailsBanner job={job} />
       <JobDetailsJob job={job} />
-    </section>
+    </>
   )
 }
 
