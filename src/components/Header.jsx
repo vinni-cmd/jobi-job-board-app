@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Dropdown from "./Dropdown"
 
 const Header = () => {
   return (
@@ -26,6 +27,12 @@ const Header = () => {
             <Link to={'/'}>
               Contact
             </Link>
+          </li>
+          <li>
+            <button>
+              Pages
+            </button>
+            <Dropdown />
           </li>
         </ul>
         <ul>

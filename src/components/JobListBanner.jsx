@@ -1,6 +1,11 @@
+import Search from "./Search"
+
 const JobListBanner = () => {
   return (
-    <div>JobListBanner</div>
+    <section>
+      <div>JobListBanner</div>
+      <Search />
+    </section>
   )
 }
 

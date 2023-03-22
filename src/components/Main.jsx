@@ -39,7 +39,7 @@ const Main = () => {
             <JobListAllJobs />
           </>
         } />
-        <Route path="/joblist/:jobId" element={
+        <Route path="/:jobId" element={
           <>
             <JobDetailsBanner />
             <JobDetailsJob />
