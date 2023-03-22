@@ -10,8 +10,6 @@ import HomeJobiGuides from "./HomeJobiGuides"
 import HomePostJob from "./HomePostJob"
 import HomeUploadCV from "./HomeUploadCV"
 import JobDetails from "./JobDetails"
-import JobDetailsBanner from "./JobDetailsBanner"
-import JobDetailsJob from "./JobDetailsJob"
 import JobListAllJobs from "./JobListAllJobs"
 import JobListBanner from "./JobListBanner"
 import JobListFilter from "./JobListFilter"
@@ -40,7 +38,7 @@ const Main = () => {
             <JobListAllJobs />
           </>
         } />
-        <Route path="/:jobId" element={<JobDetails />} />
+        <Route path="/job/:jobId" element={<JobDetails />} />
         <Route path="*" element={<ErrorPageBody />} />
       </Routes>
     </main>

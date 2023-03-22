@@ -1,6 +1,9 @@
-const JobDetailsBanner = () => {
+const JobDetailsBanner = ({ job }) => {
   return (
-    <div>JobDetailsBanner</div>
+    <section>
+      <div>JobDetailsBanner</div>
+      <h2 className="text-4xl">{job.title}</h2>
+    </section>
   )
 }
 
