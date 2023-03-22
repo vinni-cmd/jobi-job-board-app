@@ -1,6 +1,10 @@
 const HomePostJob = () => {
   return (
-    <div>HomePostJob</div>
+    <section>
+      <div className="wrapper">
+        <div>HomePostJob</div>
+      </div>
+    </section>
   )
 }
 

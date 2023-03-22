@@ -1,6 +1,10 @@
 const HomeExperts = () => {
   return (
-    <div>HomeExperts</div>
+    <section>
+      <div className="wrapper">
+        <div>HomeExperts</div>
+      </div>
+    </section>
   )
 }
 

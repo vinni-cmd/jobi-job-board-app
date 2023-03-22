@@ -1,6 +1,10 @@
 const HomeDirections = () => {
   return (
-    <div>HomeDirections</div>
+    <section>
+      <div className="wrapper">
+        <div>HomeDirections</div>
+      </div>
+    </section>
   )
 }
 

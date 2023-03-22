@@ -1,6 +1,10 @@
 const HomeJobiGuides = () => {
   return (
-    <div>HomeJobiGuides</div>
+    <section>
+      <div className="wrapper">
+        <div>HomeJobiGuides</div>
+      </div>
+    </section>
   )
 }
 

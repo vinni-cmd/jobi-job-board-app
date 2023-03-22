@@ -3,8 +3,10 @@ import Search from "./Search"
 const JobListBanner = () => {
   return (
     <section>
-      <div>JobListBanner</div>
-      <Search />
+      <div className="wrapper">
+        <div>JobListBanner</div>
+        <Search />
+      </div>
     </section>
   )
 }

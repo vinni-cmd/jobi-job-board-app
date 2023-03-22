@@ -1,6 +1,6 @@
 const Dropdown = () => {
   return (
-    <div>Dropdown</div>
+    <div className="sr-only">Dropdown</div>
   )
 }
 

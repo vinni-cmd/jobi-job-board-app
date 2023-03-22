@@ -12,7 +12,6 @@ import HomeUploadCV from "./HomeUploadCV"
 import JobDetails from "./JobDetails"
 import JobListAllJobs from "./JobListAllJobs"
 import JobListBanner from "./JobListBanner"
-import JobListFilter from "./JobListFilter"
 
 const Main = () => {
   return (
@@ -34,7 +33,6 @@ const Main = () => {
         <Route path="/joblist" element={
           <>
             <JobListBanner />
-            <JobListFilter />
             <JobListAllJobs />
           </>
         } />

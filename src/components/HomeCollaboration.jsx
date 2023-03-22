@@ -1,6 +1,10 @@
 const HomeCollaboration = () => {
   return (
-    <div>HomeCollaboration</div>
+    <section>
+      <div className="wrapper">
+        <div>HomeCollaboration</div>
+      </div>
+    </section>
   )
 }
 

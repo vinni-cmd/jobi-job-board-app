@@ -1,6 +1,10 @@
 const HomeUploadCV = () => {
   return (
-    <div>HomeUploadCV</div>
+    <section>
+      <div className="wrapper">
+        <div>HomeUploadCV</div>
+      </div>
+    </section>
   )
 }
 
